@@ -10,6 +10,7 @@ Run powershell ./dotnet-install.ps1 -Channel 2.0 -InstallDir C:\cli
 
 # Install NuGet CommandLine
 Run powershell Choco Install Nuget.CommandLine -Y
+Run powershell Choco Install NodeJs -Y
 
 # Install Tools
 Run powershell Nuget Install OpenCover -Version 4.6.519 -OutputDirectory Tools
